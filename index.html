@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h1> Calculadora online </h1>
+</header>
+<main>
+<section class="contenedor">
+    <fieldset>
+        <label> Restar </label>
+        <input id="num1Res" type="number" placeholder="Ingrese el primer numero">
+        <label> - </label>
+        <input id="num2Res" type="number" placeholder="Ingrese el segundo numero">
+        <button onclick="calcResta();" id="CalcRes">Calcular</button>
+        <p> Resultado: <span id="rtaRes">...</span></p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <label> Sumar </label>
+        <input id="num1Sum" type="number" placeholder="Ingrese el primer numero">
+        <label> + </label>
+        <input id="num2Sum" type="number" placeholder="Ingrese el segundo numero">
+        <button onclick="calcSuma();" id="CalcSum">Calcular</button>
+        <p >Resultado:<p id="rtaSum"></p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <label> Multiplicar </label>
+        <input id="num1Mul" type="number" placeholder="Ingrese el primer numero">
+        <label> * </label>
+        <input id="num2Mul" type="number" placeholder="Ingrese el segundo numero">
+        <button onclick="calcMulti();" id="CalcMul">Calcular</button>
+        <p> Resultado: <span id="rtaMul">...</span></p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <label> Dividir </label>
+        <input id="num1Div" type="number" placeholder="Ingrese el primer numero">
+        <label> ÷ </label>
+        <input id="num2Div" type="number" placeholder="Ingrese el segundo numero">
+        <button onclick="calcDiv();" id="CalcDiv">Calcular</button>
+        <p> Resultado: <span id="rtaDiv">...</span></p>
+    </fieldset>
+    
+</section>
+</main>
+<footer>
+ <p>MVB Todos los derechos reservados </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
